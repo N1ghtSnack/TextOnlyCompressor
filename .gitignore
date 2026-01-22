@@ -1,0 +1,53 @@
+# 可执行文件和对象文件
+*.exe
+*.o
+*.obj
+*.a
+*.lib
+*.so
+*.dylib
+
+# 编译器输出
+*.out
+*.app
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# 构建目录
+build/
+dist/
+Debug/
+Release/
+.cmake_build/
+
+# 测试输出
+test_output/
+test_input/
+test_dir/
+*.tmp
+
+# 压缩文件（防止意外提交）
+*_part*.txt
+archive*.txt
+backup*.txt
+
+# 日志文件
+*.log
+
+# Python缓存
+__pycache__/
+*.pyc
+*.pyo
+
+# 本地配置
+.env
+.local
+
+# OS特定
+Thumbs.db
